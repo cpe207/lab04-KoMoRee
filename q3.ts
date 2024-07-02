@@ -1,5 +1,15 @@
+//อธิป พูลเขตวิทย์ 660610805
+
 function primeNumber(a) {
-  /* Your code here */
+  let check:Boolean = false;
+  if(a <= 3)
+    return 'YES';
+  else for(let i:number = 2 ; i < a ; i++)
+    if(a%i === 0)
+      return 'NO';
+    else check = false;
+  if(check = true)
+    return 'YES';
 }
 
 const d1 = 10;
